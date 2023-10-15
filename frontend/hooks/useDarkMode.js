@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useState } from "react";
 
 const useDarkMode = (initialValue) => {
-    const [darkMode, setDarkMode] = useState(initialValue)
+    const [darkMode, setDarkMode] = useState(initialValue);
     return [darkMode, setDarkMode];
 };
 
